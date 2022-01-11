@@ -5,9 +5,10 @@ import About from "./about.svelte"
 </script>
 <div class="min-h-screen bg-black flex flex-row">
     <Socials />
-    <div class="px-4 max-w-6xl mx-auto content-center"> 
+    <div class="px-4 max-w-6xl mx-auto content-center text-center"> 
         
         <Nav />
+        <h1 class="font-thin tracking-widest uppercase text-7xl text-white">Aymen Ouali</h1>
         <slot></slot>
     </div>
     

@@ -29,14 +29,14 @@
 <svelte:head><title>{project.name}</title></svelte:head>
 
 {#await preload(src) then _}
-<div transition:slide class="py-8">
+<div class="py-8">
     <DescriptionCard>
         <div>
-            <h2 class="text-center text-5xl font-encode-sans font-black text-[#171717] uppercase tracking-tighter">{project.name}</h2>
-            <h2 class="text-center text-3xl font-encode-sans font-black text-[#171717] uppercase tracking-wider my-3">{project.dates}</h2>
+            <h2 class="text-center text-5xl font-normal text-[#171717] uppercase tracking-widest">{project.name}</h2>
+            <h2 class="text-center text-3xl font-normal text-[#171717] uppercase tracking-wider my-3">{project.dates}</h2>
         </div>
-        <p class="p-8 text-3xl my-4 text-center text-[#171717]">{project.description}</p>
-            <img class="w-1/4 rounded-full" {src} alt={project.name}/>
+        <p class="p-8 text-3xl my-4 text-center font-encode-sans text-[#171717]">{project.description}</p>
+            <img class="w-1/4 rounded-3xl" {src} alt={project.name}/>
         <ProjectLinks links={project.links} />
     </DescriptionCard>
     <DescriptionCard>
