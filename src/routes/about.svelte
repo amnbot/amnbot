@@ -3,6 +3,7 @@
     import {slide} from "svelte/transition"
     
     import {SkillsStore} from "../stores/SkillsStore"
+    import {AboutStore} from "../stores/About"
 </script>
 
 <div class="flex flex-col text-center">
@@ -13,7 +14,7 @@
     </DescriptionCard>
     <DescriptionCard>
         <p class="text-2xl">
-            Hello! My name is Aymen Ouali and I am a first year Software Engineering student currently enrolled at at McGill University. I've always been interested in what comes into making games, applications and all sorts of things, which naturally led me to coding in 2019. Since then, I have worked with multiple coding languages starting with C#. I am eager to learn new things and working with new frameworks.
+            {$AboutStore}
         </p>
     </DescriptionCard>
         <h1 class="text-thin tracking-widest text-center uppercase text-3xl text-white">
