@@ -1,10 +1,7 @@
 <script>
 
 </script>
-
-<aside class="p-6 sm:w-50 absolute">
-    <nav class="space-y-1">
-      <div class="flex flex-col space-y-0 text-white uppercase font-black">
+      <div class=" space-y-0 text-white uppercase font-black flex flex-row justify-center">
           <div class="w-20 transform transition-transform hover:scale-110 mx-4">
               <a target="_blank" class="transform transition-transform hover:scale-110 mx-4 text-lg" href="https://github.com/amnbot">
                   <svg class="fill-white" viewBox="0 0 128 128">
@@ -20,5 +17,3 @@
               </a>
           </div>
       </div>
-    </nav>
-</aside>
