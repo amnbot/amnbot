@@ -64,7 +64,9 @@ export const ProjectsStore = writable([
 		icon: 'anime',
 		stack: [
 			'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-plain.svg',
-			'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg'
+			'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg',
+			'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg',
+			'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg'
 		],
 		links: [{ type: 'GitHub', link: 'https://github.com/amnbot/AnimeSaveOneDropOne' }]
 	},
