@@ -1,10 +1,10 @@
 <script>
     import Nav from "../components/functional/nav.svelte"
     import Socials from "../components/functional/socials.svelte"
-import About from "./about.svelte"
+    import About from "./about.svelte"
 </script>
 <div class="min-h-[screen] bg-[#1a1620] ">
-    <div class="px-4 max-w-6xl mx-auto content-center text-center"> 
+    <div class="px-4 max-w-4xl mx-auto content-center text-center"> 
         
         <Nav />
         <h1 class="font-thin tracking-widest uppercase text-7xl text-white">Aymen Ouali</h1>
