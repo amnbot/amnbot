@@ -6,7 +6,7 @@
 <svelte:head><title>Aymen Ouali</title></svelte:head>
 
 <div class="text-center">
-    <DescriptionCard>
+    <DescriptionCard border={4}>
         <h1 class="text-thin tracking-widest text-center uppercase text-5xl ">Some of my projects</h1>
     </DescriptionCard>
     <div class="py-1 grid gap-5 md:grid-cols-3 grid-cols-2">

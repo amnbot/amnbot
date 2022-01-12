@@ -54,7 +54,9 @@ export const ProjectsStore = writable([
 		stack: [
 			'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg',
 			'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg',
-			'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg'
+			'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg',
+			'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg',
+			'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg'
 		],
 		links: [{ type: 'GitHub', link: 'https://github.com/amnbot/TypingSpeedTest' }],
 		images: [{ title: 'image', src: '/typingspeed/typing.jpg' }]

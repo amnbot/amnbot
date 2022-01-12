@@ -5,7 +5,7 @@
     export let fillColor;
 </script>
 
-<div class="flex flex-row items-center">
+<div class="flex flex-col items-center">
     {#each links as link}
     {#if link.type === "GitHub"}
     <div class="w-20 transform transition-transform hover:scale-110 mx-4">
