@@ -7,12 +7,12 @@
 </script>
 <svelte:head><title>About Aymen Ouali</title></svelte:head>
 <div class="flex flex-col text-center">
-    <DescriptionCard>
-        <h1 class="text-thin tracking-widest text-center uppercase text-5xl text-black">
+    <DescriptionCard color={"#2C2837"}>
+        <h1 class="text-thin tracking-widest text-center uppercase text-5xl ">
             ABOUT ME
         </h1>
     </DescriptionCard>
-    <DescriptionCard>
+    <DescriptionCard color={"#2C2837"}>
         <p class="text-2xl">
             {$AboutStore}
         </p>
@@ -20,11 +20,11 @@
         <h1 class="text-thin tracking-widest text-center uppercase text-3xl text-white">
             i have worked with:
         </h1>
-    <div class="py-1 grid gap-4 md:grid-cols-10 grid-cols-2">
-        {#each $SkillsStore as skill}
-        <DescriptionCard>
+        <div class="py-1 grid gap-4 md:grid-cols-10 grid-cols-2">
+            {#each $SkillsStore as skill}
+            <div class="bg-[#997fb1] flex items-center justify-center text-white rounded-3xl p-4 my-4 w-12/12">
             <img src={skill} alt="skill">
-        </DescriptionCard>
-        {/each}
-    </div>
+            </div>
+            {/each}
+        </div>
 </div>

@@ -7,7 +7,7 @@
 
 <div class="text-center">
     <DescriptionCard>
-        <h1 class="text-thin tracking-widest text-center uppercase text-5xl text-black">Some of my projects</h1>
+        <h1 class="text-thin tracking-widest text-center uppercase text-5xl ">Some of my projects</h1>
     </DescriptionCard>
     <div class="py-1 grid gap-5 md:grid-cols-3 grid-cols-2">
         {#each $ProjectsStore as project}
