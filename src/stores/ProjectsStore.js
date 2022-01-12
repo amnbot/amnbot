@@ -12,7 +12,12 @@ export const ProjectsStore = writable([
 			'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/svelte/svelte-original.svg',
 			'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg'
 		],
-		links: [{ type: 'GitHub', link: 'https://github.com/amnbot' }]
+		links: [{ type: 'GitHub', link: 'https://github.com/amnbot' }],
+		images: [
+			{ title: 'image', src: '' },
+			{ title: 'image', src: '' },
+			{ title: 'image', src: '' }
+		]
 	},
 	{
 		id: 'ndl-k-arcade',
@@ -29,7 +34,15 @@ export const ProjectsStore = writable([
 			'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg',
 			'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg'
 		],
-		links: [{ type: 'GitHub', link: 'https://github.com/amnbot' }]
+		links: [{ type: 'GitHub', link: 'https://github.com/amnbot' }],
+		images: [
+			{ title: 'image', src: '../ndl-k/1.jpg' },
+			{ title: 'image', src: '../ndl-k/2.jpg' },
+			{ title: 'image', src: '../ndl-k/3.jpg' },
+			{ title: 'image', src: '../ndl-k/4.jpg' },
+			{ title: 'image', src: '../ndl-k/5.jpg' },
+			{ title: 'image', src: '../ndl-k/6.jpg' }
+		]
 	},
 	{
 		id: 'typing-speed-game',
@@ -43,7 +56,8 @@ export const ProjectsStore = writable([
 			'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg',
 			'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg'
 		],
-		links: [{ type: 'GitHub', link: 'https://github.com/amnbot/TypingSpeedTest' }]
+		links: [{ type: 'GitHub', link: 'https://github.com/amnbot/TypingSpeedTest' }],
+		images: [{ title: 'image', src: '../typingspeed/typing.jpg' }]
 	},
 	{
 		id: 'sudoku-solver',
@@ -53,7 +67,11 @@ export const ProjectsStore = writable([
 			'A simple sudoku solver implemented using a recursive algorithm and PyGame for the user interface.',
 		icon: 'sudoku',
 		stack: ['https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg'],
-		links: [{ type: 'GitHub', link: 'https://github.com/amnbot/SudokuSolver' }]
+		links: [{ type: 'GitHub', link: 'https://github.com/amnbot/SudokuSolver' }],
+		images: [
+			{ title: 'image', src: '../sudoku/Screenshot_1.png' },
+			{ title: 'image', src: '../sudoku/Screenshot_4.png' }
+		]
 	},
 	{
 		id: 'anime-save-one-drop-one',
@@ -68,7 +86,12 @@ export const ProjectsStore = writable([
 			'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg',
 			'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg'
 		],
-		links: [{ type: 'GitHub', link: 'https://github.com/amnbot/AnimeSaveOneDropOne' }]
+		links: [{ type: 'GitHub', link: 'https://github.com/amnbot/AnimeSaveOneDropOne' }],
+		images: [
+			{ title: 'image', src: '../anime/Screenshot_1.png' },
+			{ title: 'image', src: '../anime/Screenshot_2.png' },
+			{ title: 'image', src: '../anime/Screenshot_3.png' }
+		]
 	},
 	{
 		id: 'slashy',
@@ -88,6 +111,12 @@ export const ProjectsStore = writable([
 				type: 'GooglePlay',
 				link: 'https://play.google.com/store/apps/details?id=com.NDLAMN.Slashy'
 			}
+		],
+		images: [
+			{ title: 'image', src: '../slashy/unnamed.webp' },
+			{ title: 'image', src: '../slashy/unnamed (1).webp' },
+			{ title: 'image', src: '../slashy/unnamed (2).webp' },
+			{ title: 'image', src: '../slashy/unnamed (3).webp' }
 		]
 	}
 ]);

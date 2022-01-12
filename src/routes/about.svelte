@@ -5,7 +5,7 @@
     import {SkillsStore} from "../stores/SkillsStore"
     import {AboutStore} from "../stores/About"
 </script>
-
+<svelte:head><title>About Aymen Ouali</title></svelte:head>
 <div class="flex flex-col text-center">
     <DescriptionCard>
         <h1 class="text-thin tracking-widest text-center uppercase text-5xl text-black">
