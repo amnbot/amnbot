@@ -21,7 +21,7 @@
             </a>
         </div>
           <div class="w-20 transform transition-transform hover:scale-110 md:mx-4 sm:mx-2 flex items-center">
-            <a target="_blank" class="transform transition-transform hover:scale-110 md:mx-4 sm:mx-2 text-lg" href="../../static/Aymen_Ouali_Software_Engineering_Coop_Resume.pdf">
+            <a target="_blank" class="transform transition-transform hover:scale-110 md:mx-4 sm:mx-2 text-lg" href="/Aymen_Ouali_Software_Engineering_Coop_Resume.pdf">
                 <Resume color={"#B777F5"} size={75}></Resume>
             </a>
         </div>
