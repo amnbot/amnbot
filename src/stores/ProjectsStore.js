@@ -36,12 +36,12 @@ export const ProjectsStore = writable([
 		],
 		links: [{ type: 'GitHub', link: 'https://github.com/amnbot' }],
 		images: [
-			{ title: 'image', src: '../ndl-k/1.jpg' },
-			{ title: 'image', src: '../ndl-k/2.jpg' },
-			{ title: 'image', src: '../ndl-k/3.jpg' },
-			{ title: 'image', src: '../ndl-k/4.jpg' },
-			{ title: 'image', src: '../ndl-k/5.jpg' },
-			{ title: 'image', src: '../ndl-k/6.jpg' }
+			{ title: 'image', src: '../../static/ndl-k/1.jpg' },
+			{ title: 'image', src: '../../static/ndl-k/2.jpg' },
+			{ title: 'image', src: '../../static/ndl-k/3.jpg' },
+			{ title: 'image', src: '../../static/ndl-k/4.jpg' },
+			{ title: 'image', src: '../../static/ndl-k/5.jpg' },
+			{ title: 'image', src: '../../static/ndl-k/6.jpg' }
 		]
 	},
 	{
@@ -57,7 +57,7 @@ export const ProjectsStore = writable([
 			'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg'
 		],
 		links: [{ type: 'GitHub', link: 'https://github.com/amnbot/TypingSpeedTest' }],
-		images: [{ title: 'image', src: '../typingspeed/typing.jpg' }]
+		images: [{ title: 'image', src: '../../static/typingspeed/typing.jpg' }]
 	},
 	{
 		id: 'sudoku-solver',
@@ -69,8 +69,8 @@ export const ProjectsStore = writable([
 		stack: ['https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg'],
 		links: [{ type: 'GitHub', link: 'https://github.com/amnbot/SudokuSolver' }],
 		images: [
-			{ title: 'image', src: '../sudoku/Screenshot_1.png' },
-			{ title: 'image', src: '../sudoku/Screenshot_4.png' }
+			{ title: 'image', src: '../../static/sudoku/Screenshot_1.png' },
+			{ title: 'image', src: '../../static/sudoku/Screenshot_4.png' }
 		]
 	},
 	{
@@ -88,9 +88,9 @@ export const ProjectsStore = writable([
 		],
 		links: [{ type: 'GitHub', link: 'https://github.com/amnbot/AnimeSaveOneDropOne' }],
 		images: [
-			{ title: 'image', src: '../anime/Screenshot_1.png' },
-			{ title: 'image', src: '../anime/Screenshot_2.png' },
-			{ title: 'image', src: '../anime/Screenshot_3.png' }
+			{ title: 'image', src: '../../static/anime/Screenshot_1.png' },
+			{ title: 'image', src: '../../static/anime/Screenshot_2.png' },
+			{ title: 'image', src: '../../static/anime/Screenshot_3.png' }
 		]
 	},
 	{
@@ -113,10 +113,10 @@ export const ProjectsStore = writable([
 			}
 		],
 		images: [
-			{ title: 'image', src: '../slashy/unnamed.webp' },
-			{ title: 'image', src: '../slashy/unnamed (1).webp' },
-			{ title: 'image', src: '../slashy/unnamed (2).webp' },
-			{ title: 'image', src: '../slashy/unnamed (3).webp' }
+			{ title: 'image', src: '../../static/slashy/unnamed.webp' },
+			{ title: 'image', src: '../../static/slashy/unnamed (1).webp' },
+			{ title: 'image', src: '../../static/slashy/unnamed (2).webp' },
+			{ title: 'image', src: '../../static/slashy/unnamed (3).webp' }
 		]
 	}
 ]);
