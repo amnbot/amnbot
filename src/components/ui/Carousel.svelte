@@ -7,7 +7,7 @@
 <ul class="flex overflow-x-auto gap-6 snap-x snap-mandatory before:shrink-0 before:w-[30vw] after:shrink-0 after:w-[30vw]">
     {#each images as image, index}
     <li id={getItemId(index)} class="shrink-0 snap-center">
-        <img class="rounded-3xl object-cover  max-h-[35vw] max-w-[15vw]" title={image.title} src={image.src} alt={image.title} />
+        <img class="rounded-3xl object-cover  sm:max-h-[35vw] max-h-[100vw] sm:max-w-[15vw]  max-w-[100vw]" title={image.title} src={image.src} alt={image.title} />
     </li>
     {/each}
 </ul>

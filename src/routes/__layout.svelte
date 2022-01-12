@@ -3,7 +3,7 @@
     import Socials from "../components/functional/socials.svelte"
 import About from "./about.svelte"
 </script>
-<div class="min-h-screen bg-black ">
+<div class="min-h-[screen] bg-black ">
     <div class="px-4 max-w-6xl mx-auto content-center text-center"> 
         
         <Nav />
