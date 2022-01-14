@@ -14,6 +14,7 @@
     import ProjectStack from "../../components/ui/ProjectStack.svelte"
     import ProjectLinks from "../../components/ui/ProjectLinks.svelte"
     import Carousel from "../../components/ui/Carousel.svelte";
+    import Sudoku from "../../components/ui/SudokuSolver/Sudoku.svelte"
 
     let project = $ProjectsStore.filter((proj)=> proj.id == id)[0]
 
@@ -35,11 +36,11 @@
         <div class=" items-center">
 
             <div>
-                <h2 class="text-center text-5xl font-normal uppercase tracking-widest">{project.name}</h2>
-                <h2 class="text-center text-3xl font-normal uppercase tracking-wider my-3">{project.dates}</h2>
+                <h2 class="text-center text-2xl sm:text-5xl font-normal uppercase tracking-widest">{project.name}</h2>
+                <h2 class="text-center text-2xl sm:text-3xl font-normal uppercase tracking-wider my-3">{project.dates}</h2>
             </div>
             <div class="rounded-3xl flex flex-row justify-center items-center">
-                <img class="w-1/4 rounded-3xl" {src} alt={project.name}/>
+                <img class="sm:w-1/4 w-1/2 rounded-3xl" {src} alt={project.name}/>
                 <ProjectLinks links={project.links} fillColor={"#A656F3"} />
             </div>
             <p class="p-8 md:text-3xl sm:text-2xl my-4 text-center ">{project.description}</p>
@@ -60,6 +61,9 @@
             <Carousel images={project.images} />
         </div>
     </div>
+    {/if}
+    {#if project.id === 'sudoku-solver'}
+    <Sudoku />
     {/if}
 </div>
 {/await}

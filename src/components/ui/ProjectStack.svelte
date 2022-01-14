@@ -2,8 +2,8 @@
     export let stack;
 </script>
 
-<div class="flex sm:flex-row flex-col items-center justify-center">
+<div class="flex flex-col sm:flex-row items-center justify-center">
     {#each stack as fw}
-    <img class="w-[10%] m-5 transition-transform hover:scale-110" src={fw} alt="image"/>
+    <img class="sm:w-[10%] w-[30%] m-5 transition-transform hover:scale-110" src={fw} alt="image"/>
     {/each}
 </div>

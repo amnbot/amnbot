@@ -20,7 +20,7 @@
         <h1 class="text-thin tracking-widest text-center uppercase text-3xl text-white">
             i have worked with:
         </h1>
-        <div class="py-1 grid gap-4 md:grid-cols-10 grid-cols-2">
+        <div class="py-1 grid gap-4 md:grid-cols-5 grid-cols-2">
             {#each $SkillsStore as skill}
             <div class="bg-[#f6edff] border-4 border-[#B777F5] flex items-center justify-center text-white rounded-3xl p-4 my-4 w-12/12">
             <img src={skill} alt="skill">
