@@ -3,7 +3,7 @@
     import Socials from "../components/functional/socials.svelte"
     import About from "./about.svelte"
 </script>
-<div class="min-h-screen bg-[#1a1620] ">
+<div class="min-h-screen bg-gradient-to-b from-[#1a1620] via-[#1a1620] to-[#1a1620] ">
     <div class="px-4 max-w-4xl mx-auto content-center text-center"> 
         
         <Nav />

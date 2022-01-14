@@ -50,7 +50,7 @@
         }
         
         const solve = async (board, row, col) => {
-                await delay(delayMs)
+                if (delayMs > 0) await delay(delayMs)
                 if (col == board[row].length) {
                         col = 0
                         row += 1
@@ -77,24 +77,24 @@
         const handleInput = () => {
                 if (delayTime) {
                         if (parseInt(delayTime) >= 100) delayTime = 100
-                        if (parseInt(delayTime) <=1) delayTime = 1
+                        if (parseInt(delayTime) <=0) delayTime = 0
                 }
         }
 </script>
 <h2 class="my-4 text-white text-xl sm:text-2xl">SELF SOLVING SUDOKU!</h2>
 
-<div class="px-40 justify-center grid grid-cols-9">
+<div class="sm:px-40 px-1 justify-center grid grid-cols-9 ">
         {#each sudokuBoard as col, y}
                 {#each col as row, x}
                 <SudokuCell value={row} />
                 {/each}
         {/each}
 </div>
-<div  class="flex flex-row justify-center items-center text-center mx-auto">        
-        <button {disabled} on:click={solveBoard} type='button' class="bg-white text-center text-black p-4 text-4xl rounded-3xl my-5">SOLVE!</button>
+<div  class="flex flex-row justify-center items-center text-center">        
+        <button {disabled} on:click={solveBoard} type='button' class="transform transition-transform hover:scale-110 bg-white text-center text-black disabled:bg-gray-500 p-4 text-4xl rounded-3xl my-5">SOLVE!</button>
         <form class="flex flex-row mx-4 justify-center">
                 <div >
-                        <input placeholder="Solving speed (1,100) ms" type="text" bind:value={delayTime} on:input={handleInput}>
+                        <input class="rounded-lg p-2" placeholder="Solving speed (0,100) ms" type="text" bind:value={delayTime} on:input={handleInput}>
                 </div>
         </form>
 </div>
