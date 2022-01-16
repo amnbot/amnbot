@@ -60,7 +60,7 @@
                 }
 
                 if (board[row][col] === '.') {
-                        for (let i = 0; i < 10; i++) {
+                        for (let i = 1; i < 10; i++) {
                                 board[row][col] = i.toString()
 
                                 if (await validPlacement(board, row, col)) {
