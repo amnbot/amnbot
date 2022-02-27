@@ -20,6 +20,34 @@ export const ProjectsStore = writable([
 		]
 	},
 	{
+		id: 'storyholic',
+		name: 'StoryHolic',
+		dates: 'February 25-27, 2022 - In progress!',
+		description:
+			'Storyholic is a website that allows its users to create stories together. Each user can submit a scene to begin a new story, or to append to an existing one. Then, users may read stories submitted to the website as chains of different scenes, traversing through the many different possible paths submitted by our many users.\nTo read through the stories and their different outcomes, go to the homepage and browse either by scene name or by tags. You will be able to create new branches for the story you decide to read. If you wish to create a new story, simply go to the create page and submit your very own original story!',
+		icon: 'storyholic',
+		stack: [
+			'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg',
+			'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg',
+			'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg',
+			'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg'
+		],
+		links: [
+			{ type: 'Link', link: 'https://storyholic.netlify.app/' },
+			{ type: 'GitHub', link: 'https://github.com/amnbot/CodeJamXI' }
+		],
+		images: [
+			{ title: 'image', src: '/storyholic/1.jpg' },
+			{ title: 'image', src: '/storyholic/2.jpg' },
+			{ title: 'image', src: '/storyholic/3.jpg' },
+			{ title: 'image', src: '/storyholic/4.jpg' },
+			{ title: 'image', src: '/storyholic/5.jpg' },
+			{ title: 'image', src: '/storyholic/6.jpg' },
+			{ title: 'image', src: '/storyholic/7.jpg' },
+			{ title: 'image', src: '/storyholic/8.jpg' }
+		]
+	},
+	{
 		id: 'ndl-k-arcade',
 		name: 'NDL:k-Arcade',
 		dates: 'April 2021 - In progress!',
@@ -44,6 +72,7 @@ export const ProjectsStore = writable([
 			{ title: 'image', src: '/ndl-k/6.jpg' }
 		]
 	},
+
 	{
 		id: 'typing-speed-game',
 		name: 'Typing Speed Game',
