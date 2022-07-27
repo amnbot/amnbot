@@ -1,9 +1,17 @@
 import { writable } from 'svelte/store';
 
 export const SkillsStore = writable([
+	"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg",
+	'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg',
+	"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/digitalocean/digitalocean-original.svg",
+	"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
+	"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg",
+	"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
 	'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-plain.svg',
 	'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg',
 	'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg',
+	"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg",
+	"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg",
 	'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg',
 	'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg',
 	'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dot-net/dot-net-original.svg',
@@ -11,14 +19,17 @@ export const SkillsStore = writable([
 	'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg',
 	'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg',
 	'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/svelte/svelte-original.svg',
-	'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg',
 	'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg',
 	'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg',
+	'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/d3js/d3js-original.svg",
 	'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg',
 	'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg',
 	'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg',
+	"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg",
+	"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg",
 	'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg',
 	'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg',
+	"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bitbucket/bitbucket-original.svg",
 	'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg',
 	'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain.svg'
 ]);
