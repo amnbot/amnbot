@@ -13,6 +13,8 @@ export const SkillsStore = writable([
 	"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg",
 	"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg",
 	'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg',
+	"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+	"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
 	'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg',
 	'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dot-net/dot-net-original.svg',
 	'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unity/unity-original.svg',
