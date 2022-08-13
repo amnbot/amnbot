@@ -6,7 +6,7 @@ export const ProjectsStore = writable([
 		name: 'Personal Website',
 		dates: 'January 2022 - In progress!',
 		description: 'You are here! This is where I showcase some of my projects!',
-		icon: 'amnbot',
+		icon: '',
 		stack: [
 			'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg',
 			'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/svelte/svelte-original.svg',

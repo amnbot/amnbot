@@ -23,7 +23,7 @@ export const SkillsStore = writable([
 	'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/svelte/svelte-original.svg',
 	'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg',
 	'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg',
-	'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/d3js/d3js-original.svg",
+	'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/d3js/d3js-original.svg',
 	'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg',
 	'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg',
 	'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg',
