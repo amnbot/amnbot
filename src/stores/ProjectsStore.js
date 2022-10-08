@@ -2,6 +2,23 @@ import { writable } from 'svelte/store';
 
 export const ProjectsStore = writable([
 	{
+		id: 'pozz',
+		name: 'POZZ',
+		dates: 'October 1-2 2022',
+		description: 'When working on computers, we tend to slouch after some amount of time without realizing it. For MAIS Hacks 2022, my team and I designed a deep learning model to detect whether or not the person in front of the camera is sitting correctly. If the posture is bad for a certain duration, the user is notified through SMS.',
+		icon: 'pozz',
+		stack: [
+			"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg",
+			"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg",
+			"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg"
+		],
+		links: [{ type: 'GitHub', link: 'https://github.com/amnbot/Pozz' },
+				{type: 'Link', link: 'https://devpost.com/software/pozz?ref_content=my-projects-tab&ref_feature=my_projects'}],
+		images: [
+			{ title: 'image', src: '/pozz/Screenshot_1.png' },
+		]
+	},
+	{
 		id: 'personal-website',
 		name: 'Personal Website',
 		dates: 'January 2022 - In progress!',
@@ -50,7 +67,7 @@ export const ProjectsStore = writable([
 	{
 		id: 'ndl-k-arcade',
 		name: 'NDL:k-Arcade',
-		dates: 'April 2021 - In progress!',
+		dates: 'April 2021 - April 2022',
 		description:
 			'As the name implies, this application is not a single game, but a bunch of games all in one place! All games are K-Pop related. For now, users can put their K-Pop related knowledge to the test by answering randomly generated questions. They can also play Save One Drop One, where they choose their favorite of two randomly selected K-Pop songs.',
 		icon: 'ndl-k',

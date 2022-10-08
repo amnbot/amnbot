@@ -1,6 +1,8 @@
 import { writable } from 'svelte/store';
 
 export const SkillsStore = writable([
+	"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg",
+	"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg",
 	"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg",
 	'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg',
 	"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/digitalocean/digitalocean-original.svg",
