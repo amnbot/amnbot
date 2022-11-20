@@ -1,6 +1,14 @@
 import { writable } from 'svelte/store';
 
 export const SkillsStore = writable([
+	"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
+	"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg",
+	"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
+	"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg",
+	"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg",
+	"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-original.svg",
+	"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
+	"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg",
 	"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg",
 	"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg",
 	"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg",
