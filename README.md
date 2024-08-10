@@ -3,6 +3,9 @@
 - [Aymen Ouali](#aymen-ouali)
   - [👨‍💻 About me](#-about-me)
   - [🖥️ My Projects](#️-my-projects)
+    - [🏫 Classroom AIssistant - ConUHacks](#-classroom-aissistant---conuhacks)
+    - [📑 Quizzler - Codejam 13 | ⭐Best Educational Hack](#-quizzler---codejam-13--best-educational-hack)
+    - [📖 Infinite Piece - MAIS Hacks 2023 | ⭐Honourable Mention](#-infinite-piece---mais-hacks-2023--honourable-mention)
     - [🛂 CrowdSpace - McHacks 10](#-crowdspace---mchacks-10)
     - [📖 StudyGroup - CodeJam 12 | 🥉3rd Place](#-studygroup---codejam-12--3rd-place)
     - [🧍‍♂️ POZZ](#️-pozz)
@@ -29,6 +32,15 @@ I am Aymen Ouali, a third year Software Engineering student at McGill University
 | [LinkedIn](https://www.linkedin.com/in/aymen-ouali-513939201/) | [Devpost](https://devpost.com/amnbot?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav) | [Personal Website](https://oualiaymen.netlify.app/) |
 
 ## 🖥️ My Projects
+
+### 🏫 [Classroom AIssistant - ConUHacks](https://github.com/amnbot/CONUHACKS)
+With the lack of elementary school teachers in Quebec right now, we wanted to provide a product which makes the teaching experience easier. Our product allows for teachers to focus better on the teaching aspect, and helps identify which students might be struggling to pay attention in class.
+
+### 📑 [Quizzler - Codejam 13 | ⭐Best Educational Hack](https://github.com/amnbot/CodeJam13)
+Quizzler enhances students' studying experience to dynamically generate AI exams from their lecture notes, allowing them to easily review lecture material and track their learning over time.
+
+### 📖 [Infinite Piece - MAIS Hacks 2023 | ⭐Honourable Mention](https://github.com/amnbot/infinite-piece)
+Visual novels using have very limiting choice. We wanted to make one where the story can take any possible turn and the only limit is the user's creativity.
 
 ### 🛂 [CrowdSpace - McHacks 10](https://github.com/McGill-ECSE223-Winter2022/group-project--21)
 CrowdSpace is a web app that allows event staff to localize potentially dangerous zones using a heatamp to analyze the crowd's density, communicate with their team and act as fast as possible.
